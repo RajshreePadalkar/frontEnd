@@ -9,12 +9,12 @@ body {
 }
 
 h1 {
-    background-image: url("../logo/random4.jpg");
+    background-image: url("/05.jpeg");
     /* height: 5rem; */
     padding: 1.5rem;
     margin: 5px;
     font-size: 4rem;
-    color: rgb(134, 36, 36);
+    color: rgb(253, 249, 249);
 }
 
 .nav {
