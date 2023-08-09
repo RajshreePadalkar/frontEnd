@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    background-image: url("../logo/random4.jpg");
+    /* height: 5rem; */
+    padding: 1.5rem;
+    margin: 5px;
+    font-size: 4rem;
+    color: rgb(134, 36, 36);
+}
+
+.nav {
+    border: 0.5rem solid gray;
+    width : 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    font-size: 20px;
+    background-color: rgb(85, 247, 144);
+}
+
+h2 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 3rem;
+    color: brown;
+}
+
+p {
+    margin: 1rem auto;
+    width: 90%;
+    font-size: 2rem;
+}
+
+h3 {
+    margin: 2rem auto;
+    font-size: 3rem;
+    color:rgb(134, 36, 36);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-container {
+    width: 70%;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+}
+
+img {
+    width: 30rem;
+    height: 20rem;
+}    
+
+.image-nav {
+    margin: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+}    
+
+footer {
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    width: 80%;
+    margin: 5rem auto 0 auto;
+}    
+
+
+
+
+
+h4 {
+    padding-top: 5rem;
+    margin: 2rem auto;
+    font-size: 3rem;
+    color:rgb(134, 36, 36);
+} 
+
+h5 {
+    margin: 2rem auto;
+    font-size: 2rem;
+    color: rgb(112, 111, 111);
+    
+} 
+
+input {
+    margin: 2rem auto;
+    font-size: 2rem;
+    color:rgb(43, 43, 43);
+    border: 0;
+    padding: 2px 2px 2px 10px;
+    border-radius: 25px;
+}
+
+
